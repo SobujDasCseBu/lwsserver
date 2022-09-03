@@ -1,12 +1,14 @@
 const todos = require("./data/todos");
 const videos = require("./data/videos");
-const videos2 = require("./data/videos2");
+const tags = require("./data/tags");
 const transactions = require("./data/transactions");
+const players = require("./data/players");
 
 module.exports = {
   todos,
   videos,
-  videos2,
+  tags,
   transactions,
+  players,
 }
 
